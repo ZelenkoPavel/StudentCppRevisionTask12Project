@@ -38,7 +38,10 @@
 *	[output 6]: 0
 */
 
-int task02(int, int) {
-	return 0;
+int task02(int a, int b) {
+	if (a <= 0 || b <= 0){
+		return 0;
+	}
 
+	return a * b / task01(a, b);
 }
