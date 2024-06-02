@@ -36,6 +36,6 @@
 *	[output 6]: 0
 */
 
-int task04(int, int, int) {
-	return 0;
+int task04(int a, int b, int c) {
+	return task02(task02(a, b), c);
 }

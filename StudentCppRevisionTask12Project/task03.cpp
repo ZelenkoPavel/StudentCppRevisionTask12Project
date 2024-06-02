@@ -39,9 +39,5 @@
 */
 
 int task03(int a, int b, int c) {
-	if (a < 1 || b < 1 || c < 1) {
-		return 0;
-	}
-
 	return task01(task01(a, b), c);
 }
