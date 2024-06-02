@@ -40,7 +40,7 @@
 
 //task02
 int task01(int n, int m) {
-	if (n <= 0 || m <= 0) {
+	if (n < 1 || m < 1) {
 		return 0;
 	}
 

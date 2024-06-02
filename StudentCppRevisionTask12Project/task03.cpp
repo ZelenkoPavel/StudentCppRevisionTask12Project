@@ -38,6 +38,10 @@
 *	[output 6]: 0
 */
 
-int task03(int, int, int) {
-	return 0;
+int task03(int a, int b, int c) {
+	if (a < 1 || b < 1 || c < 1) {
+		return 0;
+	}
+
+	return task01(task01(a, b), c);
 }
