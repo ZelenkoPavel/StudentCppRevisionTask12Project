@@ -7,8 +7,5 @@ int main(void) {
 	testingTask03();
 	testingTask04();
 	testingTaskX();
-
-	cout << task01(28, 21) << endl;
-
 	return 0;
 }
